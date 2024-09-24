@@ -1,0 +1,45 @@
+
+.custom-carousel .slick-dots li button:before {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+
+/* Custom styles for navigation arrows */
+.custom-carousel .slick-prev,
+.custom-carousel .slick-next {
+  z-index: 1;
+}
+
+.custom-carousel .slick-prev:before,
+.custom-carousel .slick-next:before {
+  color: #a09c9c; /* Customize the color of arrows */
+  display: none;
+}
+.custom-carousel .slick-dots li {
+  margin: 0 0px; /* Adjust the horizontal margin between dots */
+}
+.custom-carousel .slick-dots li.slick-active button:before {
+  color: #fff; /* Active dot color */
+   opacity: 1;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 9px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 0px;
+    height: 0px;
+    content: '•';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    color: black;
+}
+.custom-carousel .items{
+    display: flex !important;
+    width: 100% ;
+}
